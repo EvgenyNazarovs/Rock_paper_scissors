@@ -3,33 +3,33 @@ class Game
   def self.rock(hand2)
       case hand2
       when "rock"
-        return "it's a tie!"
+        return "It's a tie."
       when "paper"
-        return "player 2 wins with paper!"
+        return "Computer wins - paper beats rock. Until next time."
       when "scissors"
-        return "player 1 wins with rock!"
+        return "You win - rock beats scissors!"
       end
   end
 
   def self.paper(hand2)
     case hand2
     when "rock"
-      return "you win with paper!"
+      return "You win - paper beats rock! Good effort."
     when "paper"
-      return "it's a tie!"
+      return "It's a tie."
     when "scissors"
-      return "player 2 wins with scissors!"
+      return "Computer wins - scissors beat rock."
     end
   end
 
   def self.scissors(hand2)
     case hand2
     when "rock"
-      return "player two wins with rock!"
+      return "You lose - rock beats scissors!"
     when "paper"
-      return "you win with scissors!"
+      return "You win - scissors beat paper!"
     when "scissors"
-      return "it's a tie, ladies and gentlement."
+      return "It's a tie, ladies and gentlement."
     end
   end
 

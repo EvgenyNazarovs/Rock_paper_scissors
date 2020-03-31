@@ -1,0 +1,22 @@
+body {
+  background-color: #240090;
+  color: #fffafa;
+  text-align: center;
+}
+
+.choice {
+  display: inline;
+  font-size: 20px;
+}
+
+a:link {
+  color: #fffafa;
+}
+
+a:visited {
+  color: #fffafa;
+}
+
+a:hover {
+  color: #ADADAD;
+}
